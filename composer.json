@@ -1,0 +1,26 @@
+{
+    "name": "itpanda-llc/mikbill-chelinvest-gorod-php-api",
+    "description": "API for MikBill billing system for receiving payments through the Gorod74 payment system on the basis of the PJSC Chelyabinvestbank",
+    "type": "library",
+    "keywords": [
+        "panda", "gorod74", "mikbill", "chelinvest", "processing", "chelyabinvestbank"
+    ],
+    "homepage": "https://github.com/itpanda-llc/mikbill-chelinvest-gorod-php-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "itpanda-llc",
+            "homepage": "https://github.com/itpanda-llc",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Panda\\MikBill\\Chelinvest\\GorodAPI\\": "src"
+        }
+    },
+    "require": {
+        "ext-pdo": "*",
+        "ext-simplexml": "*"
+    }
+}
